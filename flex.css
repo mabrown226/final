@@ -1,0 +1,45 @@
+/************************** NavBar **************************/
+.navBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/************************** body **************************/
+.body-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+.body-wrapper-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper section {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/************************** footer **************************/
+.foot-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}

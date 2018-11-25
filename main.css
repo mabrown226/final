@@ -1,0 +1,85 @@
+/*
+First i import a reset stylesheet that was taken from
+https://meyerweb.com/eric/tools/css/reset/
+*/
+@import "reset.css";
+
+
+/************************** NavBar **************************/
+.foot-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navBar {
+    background-color: #808080;
+    width: 100%;
+    height: 115px;
+    margin-bottom: 10px;
+}
+
+/************************** body **************************/
+
+h1,h2,h3,h4,h5,p,a {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+}
+h2 {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+}
+h3 {
+    font-size: 3.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+}
+h4 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+}
+h5 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 7px;
+}
+p {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 4px;
+}
+a {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 4px;
+}
+.driverInfo h5, .VehInfo h5 {
+    background-color: #00CCFF;
+}
+
+
+
+/************************** footer **************************/
+/* Create a footer that stays at the bottom */
+.foot-wrapper {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: #808080;
+    width: 100%;
+    height: 9%;
+}
